@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: abc-pod
+  labels:
+    app: prod
+spec:
+  containers:
+    - name: abc-con
+      image: abc_tech:latest
